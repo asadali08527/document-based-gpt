@@ -1,0 +1,55 @@
+# FastAPI for API framework
+fastapi
+fastapi-users
+
+# Uvicorn for ASGI server
+uvicorn[standard]
+
+# OpenAI integration (ensure compatibility with LangChain's requirement)
+openai
+
+# LangChain for vector store and other document operations
+langchain
+langchain-community
+langchain-openai
+
+# FAISS for vector storage
+faiss-cpu
+
+# Pydantic for data validation and settings management
+pydantic
+
+# JWT and OAuth2 for token-based authentication
+python-jose
+passlib[bcrypt]
+
+# Token and authentication utilities
+bcrypt
+
+# Profanity filtering
+better_profanity
+
+# Dependency for working with async operations
+httpx
+
+# Additional dependencies for security and token utilities
+cryptography
+
+# Logging utilities
+loguru
+
+# Multipart form-data handling for file uploads in FastAPI
+python-multipart
+
+# Transformers for integrating with various NLP models (used with OpenAI/LLMs)
+transformers
+
+# Tokenization support for natural language processing (used with LLMs and OpenAI)
+tiktoken
+
+# Unstructured data parsing and extraction (for processing document content)
+unstructured
+
+# Python-magic for file type detection (used by 'unstructured' library)
+python-magic
+
