@@ -1,0 +1,157 @@
+/* Main app container */
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h3, h4 {
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Chat box container */
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Chat window for responses */
+.chat-window {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+/* Response content */
+.response-container {
+  margin-bottom: 15px;
+}
+
+.response-content {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat input container */
+.chat-input {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+/* Input styles */
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Button styles */
+.chat-input button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chat-input button:hover {
+  background-color: #45a049;
+}
+
+/* Sources list with scroll */
+.sources {
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.sources ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sources li {
+  padding: 5px 0;
+  word-break: break-all;
+}
+
+/* Upload container for admin */
+.upload-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* General button styles */
+button {
+  cursor: pointer;
+}
+
+.chat-app-container {
+  display: flex;
+  height: 80vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 250px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.sidebar h3 {
+  text-align: center;
+  color: #333;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Chat section styles */
+.chat-section {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
