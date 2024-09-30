@@ -139,7 +139,7 @@ curl -X 'POST'   'http://127.0.0.1:8000/v1/auth/token/'   -H 'accept: applicatio
 
 ### 3. Upload Document (Admin Only)
 ```bash
-curl -X 'POST'   'http://127.0.0.1:8000/v1/document/upload/'   -H 'accept: application/json'   -H 'Authorization: Bearer YOUR_JWT_AUTH_TOKEN'   -H 'Content-Type: multipart/form-data'   -F 'file=@CoverLetter.txt;type=text/plain'
+curl -X 'POST'   'http://127.0.0.1:8000/v1/document/upload/'   -H 'accept: application/json'   -H 'Authorization: Bearer YOUR_JWT_AUTH_TOKEN'   -H 'Content-Type: multipart/form-data'   -F 'file=@sample_internal_document.txt;type=text/plain'
 ```
 **Response:**
 ```json
@@ -160,7 +160,7 @@ curl -X 'POST'   'http://127.0.0.1:8000/v1/query/ask/'   -H 'accept: application
   "answer": "There are 2 rounds of interviews for ML engineers",
   "sources": [
     {
-      "source": "app/Documents/new_docs/ML Engineers.txt",
+      "source": "app/Documents/new_docs/xyz.txt",
       "chunk_index": 0,
       "text": "I hope this message finds you well.I am reaching out to you regarding your application for the ML Engineer position at XYZ. After carefully reviewing your profile, we are impressed with your skills and experience, and we would like to invite you to proceed with our interview process.Our interview process consists of two rounds, designed to assess your technical skills, problem-solving abilities, and cultural fit within our team. Here's an overview of what to expect:",
       "file_path": "app/Documents/new_docs/xyz.txt"
